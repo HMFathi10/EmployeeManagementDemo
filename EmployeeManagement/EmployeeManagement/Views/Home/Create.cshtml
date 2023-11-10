@@ -1,0 +1,37 @@
+﻿@model EmployeeCreateViewModel
+@{
+    ViewBag.Title = "Create Employee";
+}
+<h1>@ViewData["PageTitle"]</h1>
+<form enctype="multipart/form-data" asp-controller="Home" asp-action="Create" method="post">
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name"/>
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Department"></label>
+        <select asp-for="Department" asp-items="Html.GetEnumSelectList<Dept>()">
+            <option value="">Please Select</option>
+        </select>
+        <span asp-validation-for="Department"></span>
+    </div>
+    <div>
+        <input multiple asp-for="Photos" class="form-control custom-file-input"/>
+        <label asp-for="Photos" class="custom-file-label">Choose File....</label>
+    </div>
+    <div>
+        <button type="submit">Create</button>
+    </div>
+    @section Scripts {
+        <script>
+            $(document).ready(function () {
+                $('.custom-file-input').on('change', function () {
+                    console.log($(this));
+                    // var fileName = $(this).val().split("\\").pop();
+                    // $(this).next('.custom-file-label').html(fileName);
+                });
+            });
+        </script>
+    }
+</form>

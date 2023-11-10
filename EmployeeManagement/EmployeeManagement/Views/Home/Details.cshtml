@@ -1,0 +1,24 @@
+﻿@model Employee
+@{
+    ViewBag.Title = "Employee Details";
+}
+        <h1>@ViewData["PageTitle"]</h1>
+        @{
+            var employee = ViewData["Employee"] as EmployeeManagement.Models.Employee;
+            var pathPhoto = "~/images/" + Model.PhotoPath;
+        }
+        <div>
+            Id: @Model.Id
+        </div>
+    <div>
+        Name: @Model.Name
+    </div>
+    <div>
+    <img src="@pathPhoto" width="500" height="500" asp-append-version="true"/>
+    </div>
+    <div>
+        Department: @Model.Department
+    </div>
+    @section Scripts {
+    <script src="~/wwwroot/js/customscript.js"></script>
+    }

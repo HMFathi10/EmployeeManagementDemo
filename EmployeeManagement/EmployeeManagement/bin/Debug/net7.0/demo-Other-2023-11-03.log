@@ -1,0 +1,9 @@
+2023-11-03 13:52:16.3596||ERROR|EmployeeManagement.Controllers.ErrorController|this request is not found 404 |url: |action: 
+2023-11-03 13:54:22.1816||TRACE|EmployeeManagement.Controllers.HomeController|Trace Log |url: |action: 
+2023-11-03 13:54:22.1816||DEBUG|EmployeeManagement.Controllers.HomeController|Debug Log |url: |action: 
+2023-11-03 13:54:22.1816||INFO|EmployeeManagement.Controllers.HomeController|Info Log |url: |action: 
+2023-11-03 13:54:22.1816||WARN|EmployeeManagement.Controllers.HomeController|Warning Log |url: |action: 
+2023-11-03 13:54:22.1816||ERROR|EmployeeManagement.Controllers.HomeController|Error Log |url: |action: 
+2023-11-03 13:54:22.1816||FATAL|EmployeeManagement.Controllers.HomeController|Critical Log |url: |action: 
+2023-11-03 13:54:23.0511||ERROR|EmployeeManagement.Controllers.ErrorController|this request is not found 404 |url: |action: 
+2023-11-03 13:54:23.0704||ERROR|EmployeeManagement.Controllers.ErrorController|this request is not found 404 |url: |action: 

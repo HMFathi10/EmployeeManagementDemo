@@ -1,0 +1,10 @@
+2023-11-02 12:43:44.8838 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-11-02 12:43:44.9242 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-11-02 12:43:44.9438 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-02 12:43:44.9679 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\Algoriza Intern\ASP.NET Core\EmployeeManagement\EmployeeManagement\bin\Debug\net7.0\nlog.config
+2023-11-02 12:43:44.9838 Info Configuration initialized.
+2023-11-03 13:52:01.0233 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-11-03 13:52:01.3182 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-11-03 13:52:01.4010 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-03 13:52:01.4709 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\Algoriza Intern\ASP.NET Core\EmployeeManagement\EmployeeManagement\bin\Debug\net7.0\nlog.config
+2023-11-03 13:52:01.4880 Info Configuration initialized.

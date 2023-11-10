@@ -1,0 +1,43 @@
+2023-11-02 12:35:39.6746 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-11-02 12:35:39.7140 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=AllAsyncWrapper)
+2023-11-02 12:35:39.7464 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-02 12:35:39.7874 Info Validating config: TargetNames=AllAsyncWrapper, ConfigItems=39, FilePath=D:\Algoriza Intern\ASP.NET Core\EmployeeManagement\EmployeeManagement\bin\Debug\net7.0\nlog.config
+2023-11-02 12:35:39.8212 Info Configuration initialized.
+2023-11-02 12:37:36.0146 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-11-02 12:37:36.0257 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=AllAsyncWrapper)
+2023-11-02 12:37:36.0416 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-02 12:37:36.0713 Info Validating config: TargetNames=AllAsyncWrapper, ConfigItems=39, FilePath=D:\Algoriza Intern\ASP.NET Core\EmployeeManagement\EmployeeManagement\bin\Debug\net7.0\nlog.config
+2023-11-02 12:37:36.0919 Info Configuration initialized.
+2023-11-02 12:37:39.9651 Warn FileTarget(Name=allfile): Failed to create file appender: D:\Algoriza Intern\ASP.NET Core\EmployeeManagement\EmployeeManagement\bin\Debug\net7.0\$D:\Algoriza Intern\ASP.NET Core\EmployeeManagement\nlog-all-2023-11-02-Development.log Exception: System.IO.IOException: The filename, directory name, or volume label syntax is incorrect. : 'D:\Algoriza Intern\ASP.NET Core\EmployeeManagement\EmployeeManagement\bin\Debug\net7.0\$D:\Algoriza Intern\ASP.NET Core\EmployeeManagement\nlog-all-2023-11-02-Development.log'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.CountingSingleProcessFileAppender..ctor(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.CountingSingleProcessFileAppender.Factory.NLog.Internal.FileAppenders.IFileAppenderFactory.Open(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.FileAppenderCache.CreateAppender(String fileName, Int32 freeSpot)
+2023-11-02 12:37:40.0117 Warn FileTarget(Name=allfile): Failed to create file appender: D:\Algoriza Intern\ASP.NET Core\EmployeeManagement\EmployeeManagement\bin\Debug\net7.0\$D:\Algoriza Intern\ASP.NET Core\EmployeeManagement\nlog-all-2023-11-02-Development.log Exception: System.IO.IOException: The filename, directory name, or volume label syntax is incorrect. : 'D:\Algoriza Intern\ASP.NET Core\EmployeeManagement\EmployeeManagement\bin\Debug\net7.0\$D:\Algoriza Intern\ASP.NET Core\EmployeeManagement\nlog-all-2023-11-02-Development.log'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.CountingSingleProcessFileAppender..ctor(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.CountingSingleProcessFileAppender.Factory.NLog.Internal.FileAppenders.IFileAppenderFactory.Open(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.FileAppenderCache.CreateAppender(String fileName, Int32 freeSpot)
+2023-11-02 12:37:49.3212 Warn FileTarget(Name=allfile): Failed to create file appender: D:\Algoriza Intern\ASP.NET Core\EmployeeManagement\EmployeeManagement\bin\Debug\net7.0\$D:\Algoriza Intern\ASP.NET Core\EmployeeManagement\nlog-all-2023-11-02-Development.log Exception: System.IO.IOException: The filename, directory name, or volume label syntax is incorrect. : 'D:\Algoriza Intern\ASP.NET Core\EmployeeManagement\EmployeeManagement\bin\Debug\net7.0\$D:\Algoriza Intern\ASP.NET Core\EmployeeManagement\nlog-all-2023-11-02-Development.log'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.CountingSingleProcessFileAppender..ctor(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.CountingSingleProcessFileAppender.Factory.NLog.Internal.FileAppenders.IFileAppenderFactory.Open(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.FileAppenderCache.CreateAppender(String fileName, Int32 freeSpot)
